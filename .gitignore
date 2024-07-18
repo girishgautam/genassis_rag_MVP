@@ -1,4 +1,4 @@
-
+*.json
 *.pdf
 .ipynb_checkpoints/
 __pycache__/utils.cpython-310.pyc
