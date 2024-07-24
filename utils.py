@@ -10,7 +10,7 @@ def get_doc_tools(
     file_path: str,
     name: str,
 ) -> str:
-    """Get vector query and summary query tools from a document."""
+    """a function to get vector query and summary query tools from a document."""
 
     # load documents
     documents = SimpleDirectoryReader(input_files=[file_path]).load_data()
